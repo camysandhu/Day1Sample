@@ -78,4 +78,26 @@ for i in stride(from: 10, to: 0, by: -1)
 }
 
 
+var x0 = Int()
+print(x0)
+
+
+
+//var x5: Int?
+//print(x5)
+
+let abc="aaabbccccdeeeab"
+
+print(abc.uppercased())
+print(abc.lowercased())
+print(abc.hasPrefix("aaa"))
+print(abc.hasPrefix("rrr"))
+print(abc.hasSuffix("aaa"))
+print(abc.hasSuffix("eab"))
+print(abc.makeIterator())
+print(abc.suffix(4))
+print(abc.suffix(6))
+print(abc.prefix(5))
+print(abc.starts(with: "aaa"))
+
 
