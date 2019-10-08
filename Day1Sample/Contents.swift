@@ -1,14 +1,4 @@
-//
-//  main.swift
-//  Day1Sample
-//
-//  Created by MacStudent on 2019-10-07.
-//  Copyright © 2019 MacStudent. All rights reserved.
-//
-
-import Foundation
-
-
+import UIKit
 
 
 var str = "Hello, playground"
@@ -59,23 +49,20 @@ print(x2.cityName)
 
 
 
-//var x3=x2.cityName; x2.collegeId
-//print(x3)
+var x3=x2.cityName; x2.collegeId
+print(x3)
 
 
 
 var (_, collegName, cityName) = x2
 
 var _ = 10000
-print(collegName, cityName)
+ print(collegName, cityName)
 
 var r = 1...10
 print(r)
 
 for i in stride(from: 10, to: 0, by: -1)
 {
-    print("Camy \(i)")
+print("Camy \(i)")
 }
-
-
-
